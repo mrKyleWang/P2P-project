@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+	<title>向上滚动</title>
+	<link rel="stylesheet" href="css/liMarquee.css">
+		<style>
+.dowebok {
+	width: 790px;
+	height: 200px;
+	margin: 100px auto;
+	font-size: 14px;
+}
+
+.dowebok ul {
+	margin: 0;
+	line-height: 30px;
+}
+
+.dowebok a {
+	color: #333;
+	text-decoration: none;
+}
+
+.dowebok a:hover {
+	text-decoration: underline;
+}
+</style>
+</head>
+
+<body>
+	<div class="dowebok">
+		<ul>
+			<li>
+				<div class="thumbnail">
+					<div class="caption pro1">
+						<h4>理财产品I</h4>
+					</div>
+					<img src="img/help/m-ico_01.png" />
+					<div class="caption">
+						<h4>整存零取，存本取息</h4>
+						<a href="#shopArea1" data-toggle="tab" class="btn btn-info">我要购买</a>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="thumbnail">
+					<div class="caption pro1">
+						<h4>理财产品I</h4>
+					</div>
+					<img src="img/help/m-ico_01.png" />
+					<div class="caption">
+						<h4>整存零取，存本取息</h4>
+						<a href="#shopArea1" data-toggle="tab" class="btn btn-info">我要购买</a>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="thumbnail">
+					<div class="caption pro1">
+						<h4>理财产品I</h4>
+					</div>
+					<img src="img/help/m-ico_01.png" />
+					<div class="caption">
+						<h4>整存零取，存本取息</h4>
+						<a href="#shopArea1" data-toggle="tab" class="btn btn-info">我要购买</a>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="thumbnail">
+					<div class="caption pro1">
+						<h4>理财产品I</h4>
+					</div>
+					<img src="img/help/m-ico_01.png" />
+					<div class="caption">
+						<h4>整存零取，存本取息</h4>
+						<a href="#shopArea1" data-toggle="tab" class="btn btn-info">我要购买</a>
+					</div>
+				</div>
+			</li>
+			<li><div class="thumbnail">
+					<div class="caption pro1">
+						<h4>理财产品I</h4>
+					</div>
+					<img src="img/help/m-ico_01.png" />
+					<div class="caption">
+						<h4>整存零取，存本取息</h4>
+						<a href="#shopArea1" data-toggle="tab" class="btn btn-info">我要购买</a>
+					</div>
+				</div></li>
+			<li><div class="thumbnail">
+					<div class="caption pro1">
+						<h4>理财产品I</h4>
+					</div>
+					<img src="img/help/m-ico_01.png" />
+					<div class="caption">
+						<h4>整存零取，存本取息</h4>
+						<a href="#shopArea1" data-toggle="tab" class="btn btn-info">我要购买</a>
+					</div>
+				</div></li>
+			<li><div class="thumbnail">
+					<div class="caption pro1">
+						<h4>理财产品I</h4>
+					</div>
+					<img src="img/help/m-ico_01.png" />
+					<div class="caption">
+						<h4>整存零取，存本取息</h4>
+						<a href="#shopArea1" data-toggle="tab" class="btn btn-info">我要购买</a>
+					</div>
+				</div></li>
+			<li><div class="thumbnail">
+					<div class="caption pro1">
+						<h4>理财产品I</h4>
+					</div>
+					<img src="img/help/m-ico_01.png" />
+					<div class="caption">
+						<h4>整存零取，存本取息</h4>
+						<a href="#shopArea1" data-toggle="tab" class="btn btn-info">我要购买</a>
+					</div>
+				</div></li>
+			<li><div class="thumbnail">
+					<div class="caption pro1">
+						<h4>理财产品I</h4>
+					</div>
+					<img src="img/help/m-ico_01.png" />
+					<div class="caption">
+						<h4>整存零取，存本取息</h4>
+						<a href="#shopArea1" data-toggle="tab" class="btn btn-info">我要购买</a>
+					</div>
+				</div></li>
+			<li><div class="thumbnail">
+					<div class="caption pro1">
+						<h4>理财产品I</h4>
+					</div>
+					<img src="img/help/m-ico_01.png" />
+					<div class="caption">
+						<h4>整存零取，存本取息</h4>
+						<a href="#shopArea1" data-toggle="tab" class="btn btn-info">我要购买</a>
+					</div>
+				</div></li>
+		</ul>
+	</div>
+	<script src="js/jquery.1.9.min.js"></script>
+	<script src="js/jquery.liMarquee.js"></script>
+	<script>
+		$(function() {
+			$('.dowebok').liMarquee({
+				direction : 'up', //设置滚动方向
+				scrollamount : '40', // 设置滚动速度
+				runshort : false
+			//内容未超过容器宽度（高度），不滚动。
+			});
+		});
+	</script>
+</body>
+</html>
